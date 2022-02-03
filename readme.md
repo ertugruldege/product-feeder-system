@@ -17,7 +17,6 @@ cd public && php -S localhost:8000
 /feed/{provider}
 ```
 
-
 ```php
 curl --request GET \
   --url http://localhost:8000/feed/google \
@@ -58,4 +57,3 @@ ProductFeederFactory::make('facebook', 'json');
 
 ---
 Teşekkürler
-# product-feeder-system
